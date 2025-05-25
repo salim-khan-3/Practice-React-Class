@@ -162,12 +162,12 @@
   text-decoration: none;
   color: #d2dae2;
 }
-.company h2 , .product_section h2, .subscribe_newslatter h2{
+.company h2 , .product_section h2{
   margin-bottom: 1rem;
   color: #d2dae2;
 }
 .subscribe_newslatter{
-  gap: 1rem;
+  gap: 0.8rem;
 }
 .sub_email{
   display: flex;
