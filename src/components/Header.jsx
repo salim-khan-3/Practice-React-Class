@@ -1,4 +1,5 @@
 import "./header.css"
+import "./responsive.css";
 export const Header = () =>{
     return(
         <section className="section_container">

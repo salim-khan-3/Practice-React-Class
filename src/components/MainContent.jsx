@@ -1,4 +1,5 @@
 import "./header.css";
+import "./responsive.css";
 import p1Image from "../assets/p1.png";
 import { MdFacebook } from "react-icons/md";
 import { FaTwitter,FaLinkedin } from "react-icons/fa";
