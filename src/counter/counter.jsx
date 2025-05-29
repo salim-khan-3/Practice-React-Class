@@ -20,9 +20,11 @@ export const CounterApp = () =>{
                 <h2 style={{textAlign:"center"}}>
                     <span>{count}</span>
                 </h2>
-                <button className="increment" onClick={handleIncrementCout}>Increment</button>
-                <button className="decrement" onClick={handleDecrementCount}>Decrement</button>
-                <button className="reset" onClick={()=>setCount(0)}>Reset</button>
+                <div className="inc_dec_reset">
+                    <button className="increment" onClick={handleIncrementCout}>Increment</button>
+                    <button className="decrement" onClick={handleDecrementCount}>Decrement</button>
+                    <button className="reset" onClick={()=>setCount(0)}>Reset</button>
+                </div>
             </div>
         </section>
     )
